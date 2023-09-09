@@ -15,3 +15,13 @@ poetry add fastapi
 ```commandline
 poetry add uvicorn
 ```
+
+Запуск приложения с помощью uvicorn
+```commandline
+uvicorn api:app --port 8080 --reload
+```
+
+Роутинг осуществляется с помощью класса APIRouter
+```commandline
+from fastapi import APIRouter
+```

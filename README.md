@@ -25,3 +25,7 @@ uvicorn api:app --port 8080 --reload
 ```commandline
 from fastapi import APIRouter
 ```
+Запуск приложения с помощью uvicorn
+```commandline
+uvicorn api:app --port 8080 --reload
+```

@@ -29,3 +29,7 @@ from fastapi import APIRouter
 ```commandline
 uvicorn api:app --port 8080 --reload
 ```
+Роутинг осуществляется с помощью класса APIRouter
+```commandline
+from fastapi import APIRouter
+```

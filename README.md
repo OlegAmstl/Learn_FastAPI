@@ -33,3 +33,16 @@ uvicorn api:app --port 8080 --reload
 ```commandline
 from fastapi import APIRouter
 ```
+
+
+## Установка и работа с Jinja2
+```commandline
+poetry add jinja2
+```
+```commandline
+mkdir tamplates
+touch base.html
+```
+```commandline
+from fastapi.templating import Jinja2Templates
+```
